@@ -3,7 +3,7 @@
  * @author: Wibus
  * @Date: 2021-07-17 13:48:32
  * @LastEditors: Wibus
- * @LastEditTime: 2021-07-17 14:14:09
+ * @LastEditTime: 2021-07-17 14:18:52
  * Coding With IU
  */
 Array.prototype.remove = function (value) {
@@ -227,6 +227,10 @@ Array.prototype.remove = function (value) {
         wrap: Wee.createEle("notice"),
         list: []
     };
+    console.log (
+        "\n %c  Wee.js By Wibus" + " https://iucky.cn ",
+        " color: #fff; padding:5px 0; border-radius: 66px; background: linear-gradient(145deg, #22d3d1, #1db1b0); box-shadow:  36px 36px 71px #158483, -36px -36px 71px #2bffff;",
+    );
     // 两种方式调用：wee/Wee，大小写通用
     global.wee = Wee;
     global.Wee = Wee;
