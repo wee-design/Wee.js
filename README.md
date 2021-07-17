@@ -18,7 +18,33 @@ A Useful Wee-Design JavaScript components
 - [ ] 实现图片灯箱
 - [ ] 使用TypeScript重写（~~多此一举~~）
 
-## 使用说明
+## 引入`Wee.js`
+
+### CDN引入
+
+1. 请在 body 标签结尾之前引用下面任一行代码
+
+```html
+<!-- 未压缩版本 -->
+<script src="https://cdn.jsdelivr.net/gh/wee-design/Wee.js/src/wee.js"></script>
+<!-- 压缩版本 -->
+<script src="https://cdn.jsdelivr.net/gh/wee-design/Wee.js/src/wee.min.js"></script>
+```
+
+### 本地引入
+
+1. 下载/src/wee.js或/src/wee.min.js
+2. wee.js是没有经过压缩的版本，min已经压缩了
+3. 请在 body 标签结尾之前引用下面任一行代码
+
+```html
+<!-- 未压缩版本 -->
+<script src="wee.js"></script>
+<!-- 压缩版本 -->
+<script src="wee.min.js"></script>
+```
+
+## 调用`Wee.js`
 
 `Wee.js`有两种调用方法，其实只是大小写同样而已哈哈
 
